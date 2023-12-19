@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alignment</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family : 'Ubuntu', sans-serif;
+        }
+        .container {
+                       width : 900px;
+                       border : 3px solid purple;
+                       margin: 33px auto;
+                       clear : left;
+        }
+        .item {
+            border : 3px solid grey;
+            margin : 12px 3px;
+            padding: 12px 3px;
+            background: rgb(248,238,238);
+        }
+        #fruit {
+           float: left;
+           width: 48%;
+        }
+        #computer {
+            float: left;
+           width: 48%;
+        }
+        #stationary{
+            float: left;
+           width: 100%;
+           clear : both;
+        }
+        p , h1 {
+            /* text-align: right;
+            text-align: left;
+            text-align: center; */
+            text-align: justify;
+        }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div id="fruit" class="item">
+        <h3>Fruits</h3>
+        <p id="fruitspara" class="para">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, consequuntur alias! Veritatis tempore quo sunt, blanditiis iste unde doloribus excepturi rerum deleniti ipsum quis dolore officiis, fugiat, dolorem numquam praesentium!
+        </p>
+      </div>
+      <div id="computer" class="item">
+        <h3>Computer</h3>
+        <p id="fruitspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim modi veritatis culpa molestias optio quod! Blanditiis exercitationem perspiciatis ex nulla magni aliquid iure velit nihil molestiae, sapiente modi? Nam, voluptate!</p>
+      </div>
+      <div id="stationary" class="item">
+        <h3>Stationary</h3>
+        <p id="fruitspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quasi maxime necessitatibus ipsum exercitationem, distinctio laudantium quibusdam culpa sint assumenda possimus illo reiciendis molestiae rem nihil iusto eos placeat fugit.</p>
+      </div>
+    </div>
+  </body>
+</html>
