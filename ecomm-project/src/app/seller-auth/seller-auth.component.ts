@@ -9,22 +9,26 @@ import { Router } from '@angular/router';
   styleUrls: ['./seller-auth.component.css']
 })
 export class SellerAuthComponent implements OnInit {
-
-  constructor(private seller : SellerService, private router : Router) { }
+ showLogin = true;
+  constructor(private seller : SellerService) { }
 
   ngOnInit(): void {
+    this.seller.reloadSeller();
   }
   signUp(data : signUp) : void
   {
     console.warn(data);
-    this.seller.userSignUp(data).subscribe( (result) => {
-      console.warn(result);
-      if(result) {
-        this.router.navigate(['seller-home'])
-      }
-    })
-
-  
+    this.seller.userSignUp(data);
   }
-
+  openLogin()
+  {
+    this.showLogin = true;
+  }
+  openSignUp()
+  {
+    this.showLogin = false;
+  }
+  login(data : signUp) : void {
+    console.warn(data);
+  }
 }
