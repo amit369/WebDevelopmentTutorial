@@ -1,0 +1,26 @@
+<h1>Hello World </h1>
+
+<button (click)="myfunction('amit')">Click me </button>
+
+<input type="text" #box placeholder="event keyup" (keyup)="getData(box.value)" />
+
+<input type="text" #box1 placeholder="event keydown" (keydown)="getData(box1.value)" />
+
+<input type="text" #box2 placeholder="event blue" (blur)="getData(box2.value)" />
+
+<input type="text" #box3 placeholder="input event" (input)="getData(box3.value)" />
+<br/>
+
+
+<h1 (mouseover)="getData('over')">Code Step by Step</h1>
+<h1 (mouseleave)="getData('leave')">Code Step by Step</h1>
+
+
+<input type="text" placeholder="Enter name" name="name" #name/>
+
+<button #name (click)="getValue(name.value)">Click</button>
+<p> Box value is : {{displayVal}}</p>
+
+<button (click)="count('add')">Up</button>
+<button (click)="count('subtract')">Down</button>
+<p>{{counter}}</p>

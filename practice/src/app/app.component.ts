@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'practice';
+  data = "Code Step by Step";
+   getValue()
+  {
+    return "Hey Amit!"
+  }
+  var1=10;
 }
