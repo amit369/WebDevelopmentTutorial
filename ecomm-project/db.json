@@ -1,0 +1,40 @@
+{
+  "seller": [
+    {
+      "name": "anil sidhu",
+      "email": "anil@seller.com",
+      "password": "abc@123",
+      "id": 1
+    },
+    {
+      "name": "anil sidhu",
+      "email": "anil@seller.com",
+      "password": "abc@123",
+      "id": 2
+    },
+    {
+      "name": "Amit Chaman",
+      "email": "amitchaman369@gmail.com",
+      "password": "12345",
+      "id": 3
+    },
+    {
+      "name": "Sumit",
+      "email": "amit",
+      "password": "123",
+      "id": 4
+    },
+    {
+      "name": "Chandan",
+      "email": "chandan@gmail.com",
+      "password": "12345",
+      "id": 5
+    },
+    {
+      "name": "amitchaman351994@gmail.com",
+      "email": "8826930849",
+      "password": "fd",
+      "id": 6
+    }
+  ]
+}
