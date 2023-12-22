@@ -1,0 +1,22 @@
+<h1 class="heading" style="color : blue">Basics of Style</h1>
+
+<style>
+  .heading {
+    color :pink;
+  }
+</style>
+<input type="text" name="user-name" value={{name}} disabled= {{disable}} >
+<br/><br/>
+<input type="text" name="user-name" [value]= name [disabled]="disable" >
+<h1 *ngIf="show else elseBlock">
+  Code Step by Step
+</h1>
+
+<ng-template #ifBlock>
+  <h1>If condition </h1>
+</ng-template>
+<ng-template #elseBlock>
+   <h1>Else Condition </h1>
+</ng-template>
+<app-login>
+  </app-login>
