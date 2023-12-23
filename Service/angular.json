@@ -1,12 +1,12 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "cli": {
-    "analytics": "f29071a0-541b-4d97-80d6-72b29daf0c5e"
+    "analytics": "d5b3407a-e35c-436d-8af4-79850bf38a0d"
   },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "FormsTypes": {
+    "Service": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/FormsTypes",
+            "outputPath": "dist/Service",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -71,10 +71,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "FormsTypes:build:production"
+              "browserTarget": "Service:build:production"
             },
             "development": {
-              "browserTarget": "FormsTypes:build:development"
+              "browserTarget": "Service:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -82,7 +82,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "FormsTypes:build"
+            "browserTarget": "Service:build"
           }
         },
         "test": {
@@ -105,5 +105,5 @@
       }
     }
   },
-  "defaultProject": "FormsTypes"
+  "defaultProject": "Service"
 }

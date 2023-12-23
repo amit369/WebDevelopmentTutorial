@@ -6,9 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'FormsTypes';
-  userLogin(item : any)
+  title = 'TemplateDrivenForm';
+  myform(item : any)
   {
-    console.log(item);
+       console.log(item);
   }
 }

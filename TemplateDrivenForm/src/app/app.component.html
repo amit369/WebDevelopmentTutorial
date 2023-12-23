@@ -1,0 +1,10 @@
+{{ title }}
+<div>
+<form #basicForm="ngForm" (ngSubmit)="myform(basicForm.value)">
+  <input type="text" name="name" placeholder="Enter name" ngModel>
+  <br><br>
+  <input type="text" name="password" placeholder="Enter password" ngModel>
+  <br><br>
+  <button>Submit</button>
+</form>
+</div>

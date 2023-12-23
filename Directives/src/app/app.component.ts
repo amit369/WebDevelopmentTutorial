@@ -6,9 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'FormsTypes';
-  userLogin(item : any)
-  {
-    console.log(item);
-  }
+  title = 'Directives';
 }
