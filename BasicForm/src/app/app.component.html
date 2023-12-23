@@ -10,8 +10,8 @@
 </form>
 
 
-<ul>
-  <li>{{userData.user}}</li>
-  <li>{{userData.email}}</li>
-  <li>{{userData.password}}</li>
+<ul *ngFor="let user of userData">
+  <li>{{user.user }}</li>
+  <li>{{user.email }}</li>
+  <li>{{user.password }}</li>
 </ul>
