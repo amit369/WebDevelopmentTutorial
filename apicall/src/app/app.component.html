@@ -6,7 +6,15 @@
   </li>
 </ul>
 
-
+<form #usersForm (ngSubmit) = "getUserFormData(usersForm)">
+  <input type="text" name="name" placeholder="Enter Name" ngModel>
+  <br><br>
+  <input type="text" name="email" placeholder="Enter Email" ngModel>
+  <br><br>
+  <input type="password" name="password" placeholder="Enter password" ngModel>
+  <br><br>
+  <button>Add New User</button>
+</form>
 <app-footer>
   
 </app-footer>

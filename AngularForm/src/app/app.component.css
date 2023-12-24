@@ -1,0 +1,14 @@
+
+input {
+    padding : 10px;
+}
+
+button {
+    padding : 10px;
+    width : 30%;
+}
+.basic {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
