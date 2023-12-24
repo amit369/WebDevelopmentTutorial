@@ -1,0 +1,16 @@
+.myheader ul {
+    list-style-type: none;
+    display: flex;
+    background-color: aliceblue;
+    height: 50px;
+}
+.myheader ul li {
+    padding : 10px;
+    font-size: large;
+}
+
+.myheader ul li:hover {
+    font-size: larger;
+    background-color: red;
+    border-radius: 10px;
+}

@@ -1,0 +1,12 @@
+
+<app-header> </app-header>
+<div class="form">
+<form #design="ngForm" (ngSubmit)="enterdata(design.value)">
+
+  <input type="text" name="email" placeholder="Enter email" ngModel><br><br>
+  <input type="password" name="password" placeholder="Enter password" ngModel><br><br>
+  <button >Submit Now </button>
+</form>
+</div>
+
+<app-footer> </app-footer>

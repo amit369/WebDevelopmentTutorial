@@ -1,0 +1,19 @@
+
+.form {
+    justify-content: center;
+    display: flex;
+    margin-top: 10vh;
+}
+
+.form input {
+    border : 2px solid black;
+    border-radius: 14px;
+    padding : 3px 19px;
+    width : 200px;
+    height : 30px;
+}
+button {
+    border-radius: 10px;
+    border: 2px solid black;
+    padding : 3px 19px;
+}
