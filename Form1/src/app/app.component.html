@@ -1,0 +1,14 @@
+  <div class="userform">
+ 
+  
+
+  <form #myForm="ngForm" (ngSubmit)="submitForm(myForm.value)">
+  <input type="text" name="name" placeholder="Enter name" ngModel >
+  <br><br>
+  <input type="text" name="email" placeholder="Enter email" ngModel >
+  <br><br>
+  <button>Register</button>
+</form>
+</div>
+
+

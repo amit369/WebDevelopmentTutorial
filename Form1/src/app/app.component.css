@@ -1,0 +1,17 @@
+.userform input {
+     border: 1px solid blue;
+     font-size: 14px;
+     padding : 10px;
+}
+
+.userform {
+    display: flex;
+    justify-content: center;
+    margin-top : 100px;
+}
+
+button {
+    padding : 10px;
+    align-items: center;
+    
+}
